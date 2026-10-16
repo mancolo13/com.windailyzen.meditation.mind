@@ -32,27 +32,26 @@ class _MainScreenState extends State<MainScreen> {
         backgroundColor: AppTheme.surfaceColor,
         indicatorColor: AppTheme.primaryColor.withValues(alpha: 0.2),
         destinations: [
-        NavigationDestination(
-          icon: const Icon(Icons.self_improvement_outlined),
-          selectedIcon: const Icon(Icons.self_improvement, color: AppTheme.primaryColor),
-          label: 'Meditate',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.spa_outlined),
-          selectedIcon: const Icon(Icons.spa, color: AppTheme.primaryColor),
-          label: 'Sounds',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.air_outlined),
-          selectedIcon: const Icon(Icons.air, color: AppTheme.primaryColor),
-          label: 'Breathe',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.book_outlined),
-          selectedIcon: const Icon(Icons.book, color: AppTheme.primaryColor),
-          label: 'Journal',
-        ),
-
+          NavigationDestination(
+            icon: const Icon(Icons.air_outlined),
+            selectedIcon: const Icon(Icons.air, color: AppTheme.primaryColor),
+            label: 'Breathe',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.self_improvement_outlined),
+            selectedIcon: const Icon(Icons.self_improvement, color: AppTheme.primaryColor),
+            label: 'Sessions',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.nature_outlined),
+            selectedIcon: const Icon(Icons.nature, color: AppTheme.primaryColor),
+            label: 'Ambience',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.spa_outlined),
+            selectedIcon: const Icon(Icons.spa, color: AppTheme.primaryColor),
+            label: 'Journey',
+          ),
         ],
       ),
     );
